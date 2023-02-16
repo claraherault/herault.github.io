@@ -1,0 +1,67 @@
+h1 {
+	color: rgb(253, 253, 253);
+	background-color: rgb(149,122,164);
+	text-align: center;
+	front-size:25spx;
+	font-family: sans-serif; 
+}
+
+p{
+	padding:5px;
+	font-family: sans-serif;
+	display: block;
+	height: 10px;
+	text-align: center;
+	}
+
+/* Centered Image Code */
+img{
+	
+	display: block;
+	width: 120px;
+	height: 120px;
+	margin: auto;
+	border-radius: 40%;
+}
+
+a{
+	padding:4px 8px;
+	text-decoration:none;
+	background-color:rgb(247,185,40);
+	color: rgb(1,0,3);
+	border-radius:25px; 
+	box-shadow:8px 8px 4px rgb(98, 81, 127);
+	width:30%;
+}
+
+#Button{
+	margin: 0 auto;
+	width: 30%
+	padding:4px 8px 4px 8px;
+	text-align: center;
+	text-decoration: none;
+	color:rgb(253,253,253);
+	border: 2px;
+	background-color:rgb(149,122,164);
+	border-radius: 30px;
+}
+
+div{
+	width:700px;
+	height: 100px;
+	display:flex;
+	flex-direction:column;
+	justify-content: center;
+	background-color: beige;
+	margin: 0 auto;	
+	border-radius: 30px;
+}
+
+@media screen and (max-width: 780px){
+    body{
+        background-color: rgb(249,232,189); /*Violet*/
+  }
+    .conteneur-flex{
+        flex-flow: column wrap;
+    }
+}
